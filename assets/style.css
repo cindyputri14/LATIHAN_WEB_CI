@@ -1,0 +1,11 @@
+.row{
+	margin-top: 45vh;
+}
+div.body{
+	transition: all ease-in-out .4s;
+}
+div.body:hover{
+	transition: all ease-in-out .4s;
+	font-size: 5vh;
+	color: salmon;
+}
