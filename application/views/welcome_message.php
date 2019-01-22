@@ -1,89 +1,65 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
-
-	<style type="text/css">
-
-	::selection { background-color: #E13300; color: white; }
-	::-moz-selection { background-color: #E13300; color: white; }
-
-	body {
-		background-color: #fff;
-		margin: 40px;
-		font: 13px/20px normal Helvetica, Arial, sans-serif;
-		color: #4F5155;
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Halaman Welcome</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" href="<?= base_url('assets') ?>/style.css">
+	<style>
+	nav ul a{
+		color: white;
 	}
-
-	a {
-		color: #003399;
-		background-color: transparent;
-		font-weight: normal;
+	#isi{
+		margin-top: 15%;
+		transition: all ease-in-out .4s;
 	}
-
-	h1 {
-		color: #444;
-		background-color: transparent;
-		border-bottom: 1px solid #D0D0D0;
-		font-size: 19px;
-		font-weight: normal;
-		margin: 0 0 14px 0;
-		padding: 14px 15px 10px 15px;
-	}
-
-	code {
-		font-family: Consolas, Monaco, Courier New, Courier, monospace;
-		font-size: 12px;
-		background-color: #f9f9f9;
-		border: 1px solid #D0D0D0;
-		color: #002166;
-		display: block;
-		margin: 14px 0 14px 0;
-		padding: 12px 10px 12px 10px;
-	}
-
-	#body {
-		margin: 0 15px 0 15px;
-	}
-
-	p.footer {
-		text-align: right;
-		font-size: 11px;
-		border-top: 1px solid #D0D0D0;
-		line-height: 32px;
-		padding: 0 10px 0 10px;
-		margin: 20px 0 0 0;
-	}
-
-	#container {
-		margin: 10px;
-		border: 1px solid #D0D0D0;
-		box-shadow: 0 0 8px #D0D0D0;
+	#isi:hover h1 span{
+		color: salmon;
+		transition: all ease-in-out .4s;
 	}
 	</style>
 </head>
+
 <body>
+	<nav class="red" role="navigation">
+		<div class="nav-wrapper container">
+			<a id="logo-container" href="https://www.wadahsukses.com" class="brand-logo"><img src="<?= base_url('assets') ?>/logo.png"
+				 style="width: 11vh; height: 8vh"></a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="<?= base_url('welcome/profil') ?>">Profil</a></li>
+			</ul>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="<?= base_url('welcome/gallery') ?>">Contact</a></li>
+			</ul>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="<?= base_url('welcome/event') ?>">Event</a></li>
+			</ul>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="<?= base_url('welcome/index') ?>">Home</a></li>
+			</ul>
 
-<div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
-
-	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
-
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+			<ul id="nav-mobile" class="sidenav">
+				<li><a href="<?= base_url('welcome/profil') ?>">Profil</a></li>
+				<li><a href="<?= base_url('welcome/contact') ?>">Contact</a></li>
+				<li><a href="<?= base_url('welcome/event') ?>">Event</a></li>
+				<li><a href="<?= base_url('welcome/index') ?>">Home</a></li>
+			</ul>
+			<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		</div>
+	</nav>
+	<div class="container" id="isi">
+		<div class="row">
+			<div class="col s12 center">
+				<h1>Selamat Datang Di Website <span>Saya</span></h1>
+			</div>
+		</div>
 	</div>
-
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
-</div>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
+
 </html>

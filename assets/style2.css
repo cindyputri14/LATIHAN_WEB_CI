@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none !important;
+	list-style: none !important;
+	font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+	color: yellow !important;
+	transition: ease-in .3s;
+}
+
+.login {
+	margin-left: 105vh !important;
+}
+
+.atas {
+	background-image: url('img/atas.jpg');
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: -30vh;
+	/* overflow: hidden; */
+	position: relative;
+}
+
+.atas h1 {
+	position: relative;
+	top: 25vh;
+	font-size: 15vh;
+	text-align: center;
+}
+
+.atas p {
+	position: relative;
+	top: 25vh;
+	font-size: 3vh;
+	text-align: center;
+}
+
+.atas .kotak {
+	width: 60%;
+	height: 20%;
+	position: relative;
+	top: 30vh;
+	left: 20%;
+	background-color: rgba(245, 245, 245, 0.9);
+	border-radius: .3vh;
+	overflow: hidden;
+}
+
+.lets {
+	background-color: #F4B101;
+	border-radius: .5vh 0 0 .5vh;
+	line-height: 7vh;
+	height: 7vh;
+	width: 3vh;
+}
+
+.lets:hover {
+	background-color: #BA9000;
+	cursor: pointer;
+}
+
+.kotak2 {
+	height: 7vh;
+}
+
+.desc {
+	width: 60%;
+	height: 22vh;
+	position: relative;
+	top: 30vh;
+	left: 20%;
+	border-radius: .3vh;
+	overflow: hidden;
+}
+
+.garis {
+	position: relative;
+	border: 1px solid whitesmoke;
+	top: 28vh;
+	width: 60%;
+	left: 20%;
+}
+
+.desc span[class="kuning"] {
+	transition: ease-in-out .1s;
+}
+
+.desc span[class="kuning"]:hover {
+	color: #F4B101;
+	transition: ease-in-out .1s;
+	cursor: pointer;
+}
+
+/* WISATA / TRAVEL */
+#travel {
+	background-image: url(img/bromo-tengger-java-indonesia-wallpaper-for-2560x1440-hdtv-1666-27.jpg);
+}
+
+#more {
+	width: 25vh;
+	height: 6vh;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	font-size: 2.8vh;
+	letter-spacing: .3vh;
+	transition: all ease-in-out .1s;
+}
+
+.border {
+	border: 1px solid red !important;
+}
+
+/* JAJANAN BATU */
+.dikotak {
+	box-shadow: 0 0 30px 2px;
+}
+
+.dikotak h1 {
+	display: none;
+	transition: all ease-in-out 1s;
+}
+
+.dikotak:nth-child(1) {
+	height: 40vh;
+	background: url(img/apel.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: -80px 0;
+
+}
+
+.dikotak:nth-child(2) {
+	height: 40vh;
+	background: url(img/milk.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+
+}
+
+.dikotak:nth-child(3) {
+	height: 40vh;
+	background: url(img/ketan.PNG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: -70px 0;
+
+}
+
+.dikotak:nth-child(4) {
+	height: 40vh;
+	background: url(img/vegetables.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+
+}
+
+.dikotak:nth-child(1):hover h1 {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	line-height: 50px;
+	background-color: rgba(255, 255, 255, 0.5);
+	line-height: 35vh;
+	padding-left: 7vh;
+}
+
+.dikotak:nth-child(2):hover h1 {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	line-height: 50px;
+	background-color: rgba(255, 255, 255, 0.5);
+	line-height: 35vh;
+	padding-left: 7vh;
+}
+
+.dikotak:nth-child(3):hover h1 {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	line-height: 50px;
+	background-color: rgba(255, 255, 255, 0.5);
+	line-height: 35vh;
+	padding-left: 5vh;
+}
+
+.dikotak:nth-child(4):hover h1 {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	line-height: 50px;
+	background-color: rgba(255, 255, 255, 0.5);
+	line-height: 35vh;
+	padding-left: 1vh;
+}
+
+#jajanBatu {
+	background: url(img/leaf.jpg);
+	background-size: cover;
+	height: 75vh;
+	background-repeat: no-repeat;
+	background-position: 0 20px;
+}
+
+/* KONTAK */
+.contact {
+	height: 80vh;
+}
+
+.kotakP {
+	/* position: absolute; */
+	height: 80vh;
+	width: 100%;
+}
+
+.kotak1 {
+	background-color: #00A14E;
+	height: 40vh;
+	width: 100%;
+}
+
+.kotak2 {
+	background-color: whitesmoke;
+	height: 40vh;
+}
+
+.kotakC {
+	background-color: whitesmoke;
+	height: 60vh;
+	width: 80%;
+	margin: -70vh auto;
+	border-radius: 1vh;
+	box-shadow: 3px 3px 20px 3px;
+	overflow: hidden;
+}
+
+#kolom_kr ul:nth-child(1) li:nth-child(2) {
+	padding-left: 1.5vh;
+}
+
+#kolom_kr ul:nth-child(2) {
+	padding-left: 4vh;
+}
+
+#kolom_kr ul:nth-child(3) iframe {
+	padding-left: 10vh;
+}
+
+#kolom_kr ul:nth-child(2) li {
+	margin-left: 10px;
+	width: 25px;
+	text-align: center;
+	border-radius: 50%;
+	color: black;
+	transition: all ease-in-out .1s;
+}
+
+#kolom_kr ul:nth-child(2) li:nth-child(1):hover {
+	background-color: #00A14E;
+	transition: all ease-in-out .1s;
+}
+
+#kolom_kr ul:nth-child(2) li:nth-child(2):hover {
+	background-color: #00A14E;
+	transition: all ease-in-out .1s;
+}
+
+#kolom_kr ul:nth-child(2) li:nth-child(3):hover {
+	background-color: #00A14E;
+	transition: all ease-in-out .1s;
+}
+
+#kolom_kr ul:nth-child(2) li:nth-child(4):hover {
+	background-color: #00A14E;
+	transition: all ease-in-out .1s;
+}
+
+#kolom_kr ul:nth-child(2) li:nth-child(5):hover {
+	background-color: #00A14E;
+	transition: all ease-in-out .1s;
+}
+
+/* FORM */
+#kolom_knn form input[type='text'] {
+	cursor: text;
+	border: none;
+	width: 55vh;
+	height: 5vh;
+	padding-left: 2vh;
+	background-color: #DFE5E0;
+}
+
+#kolom_knn form input[type='email'] {
+	cursor: text;
+	border: none;
+	width: 55vh;
+	height: 5vh;
+	padding-left: 2vh;
+	background-color: #DFE5E0;
+}
+
+#kolom_knn form textarea {
+	resize: none;
+	cursor: text;
+	border: none;
+	width: 55vh;
+	padding-left: 2vh;
+	padding-top: 1vh;
+	background-color: #DFE5E0;
+}
+
+#kolom_knn form button {
+	display: block;
+	height: 5vh;
+	margin-top: 1vh;
+	border-radius: .3vh;
+	border: none;
+	background-color: #00B256;
+	width: 55vh;
+	transition: all ease-in-out .2s;
+}
+
+#kolom_knn form button:hover {
+	background-color: #00A14E;
+	transition: all ease-in-out .2s;
+}
+
+/* MODAL */
+.kartu {
+	border: none !important;
+	transition: all ease-in-out .1s;
+}
+
+.kartu:hover {
+	box-shadow: 3px 3px 20px 3px black !important;
+	transition: all ease-in-out .1s;
+	cursor: pointer;
+}
+
+/* Cursor */
+.typed-cursor {
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes blink {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes blink {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+/* 
+#typed{
+    display: inline;
+    border: 1px solid rebeccapurple;
+} */
