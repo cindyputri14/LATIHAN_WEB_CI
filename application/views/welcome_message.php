@@ -30,6 +30,9 @@
 			<a id="logo-container" href="https://www.wadahsukses.com" class="brand-logo"><img src="<?= base_url('assets') ?>/logo.png"
 				 style="width: 11vh; height: 8vh"></a>
 			<ul class="right hide-on-med-and-down">
+				<li><a href="<?= base_url('Login/logout') ?>">Logout</a></li>
+			</ul>
+			<ul class="right hide-on-med-and-down">
 				<li><a href="<?= base_url('welcome/profil') ?>">Profil</a></li>
 			</ul>
 			<ul class="right hide-on-med-and-down">
